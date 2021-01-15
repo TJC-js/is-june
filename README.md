@@ -16,7 +16,7 @@ $ npm install --save is-june
 ```js
 var isJune = require('is-june');
 
-console.log(isJune(new Date("2021-01-01"))); //=> true
+console.log(isJune(new Date("2021-06-06"))); //=> true
 
 console.log(isJune(new Date("2021-02-02"))); //=> false
 console.log(isJune('not a date')); //=> false
