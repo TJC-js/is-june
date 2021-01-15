@@ -1,0 +1,46 @@
+{
+  "name": "is-june",
+  "description": "returns a 'true' boolean if date is june",
+  "version": "1.0.1",
+  "homepage": "https://github.com/TJC-js/is-june",
+  "author": "Tim Cane (https://github.com/timcane)",
+  "contributors": [
+    "Tim Cane (https://github.com/timcane)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJC-js/is-june.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TJC-js/is-june/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "is-june",
+    "date"
+  ],
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "related": {},
+    "lint": {
+      "reflinks": false
+    }
+  },
+  "dependencies": {
+    "is-a-date": "^1.0.1"
+  }
+}
