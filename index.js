@@ -8,11 +8,12 @@
 'use strict';
 
 var isDate = require("is-a-date");
+var month = require("month-enum");
 
 module.exports = function isJune(value) {
     if(!isDate(value)){
         throw new Error('expected a date');
     }
 
-    return value.getMonth() == 5;
+    return value.getMonth() == month.June;
 };

@@ -1,7 +1,7 @@
 {
   "name": "is-june",
   "description": "returns a 'true' boolean if date is june",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/TJC-js/is-june",
   "author": "Tim Cane (https://github.com/timcane)",
   "contributors": [
@@ -41,6 +41,7 @@
     }
   },
   "dependencies": {
-    "is-a-date": "^1.0.1"
+    "is-a-date": "^1.0.1",
+    "month-enum": "^1.0.1"
   }
 }
